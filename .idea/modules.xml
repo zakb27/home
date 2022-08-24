@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../bookerino/.idea/bookerino.iml" filepath="$PROJECT_DIR$/../bookerino/.idea/bookerino.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/home_page.iml" filepath="$PROJECT_DIR$/.idea/home_page.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../HTML Files/myPortfolio/.idea/myPortfolio.iml" filepath="$PROJECT_DIR$/../../HTML Files/myPortfolio/.idea/myPortfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wheres-wally/.idea/wheres-wally.iml" filepath="$PROJECT_DIR$/../wheres-wally/.idea/wheres-wally.iml" />
     </modules>
   </component>
 </project>

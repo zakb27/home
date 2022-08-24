@@ -5,5 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="myPortfolio" />
+    <orderEntry type="module" module-name="wheres-wally" />
+    <orderEntry type="module" module-name="bookerino" />
   </component>
 </module>

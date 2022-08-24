@@ -1,38 +1,107 @@
+:root{
+  --main-color:#151b25;
+  --secondary-color:#0096c7;
+  --third-color:#48cae4;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: cadetblue;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.opening{
+  width:100vw;
+  height:100vh;
+  background-color: var(--main-color);
+  color:var(--third-color);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 4rem;
+  padding-bottom: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+.btn-77,
+.btn-77 *,
+.btn-77 :after,
+.btn-77 :before,
+.btn-77:after,
+.btn-77:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-77 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: var(--third-color);
+  background-image: none;
+  color: var(--main-color);
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  transition: 0.3s ease-in-out;
+}
+.btn-77:disabled {
+  cursor: default;
+}
+.btn-77:-moz-focusring {
+  outline: auto;
+}
+.btn-77 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-77 [hidden] {
+  display: none;
+}
+.btn-77 {
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+  border: 1px solid;
+  border-radius: 999px;
+  box-shadow: 0 0 0 2em transparent;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-77:hover{
+  transform: scale(1.1);
+
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--third-color);
   }
-  to {
-    transform: rotate(360deg);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--third-color);
   }
 }
