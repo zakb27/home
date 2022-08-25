@@ -1,22 +1,30 @@
 import React,{useState} from "react";
 import {NavLink,Link} from "react-router-dom";
 import Nav from '../components/Nav'
+import About from '../components/About'
+import Project from "../components/Project";
+import Contact from "../components/Contact";
 const Main = () =>{
 
 
     return (
-        <main>
+        <div>
             <header>
                 <Nav />
             </header>
-        <div><Link
-        as={NavLink}
-        to={'/'}
-        className={'go_back'}
-    >
-        <button className={'btn-77'}>Go back</button>
-    </Link></div>
-        </main>)
+        <main>
+            <section id={'about'}>
+                <About />
+            </section>
+            <section id={'projects'}>
+                <Project />
+            </section>
+            <section id={'contact'}>
+                <Contact />
+            </section>
+
+        </main>
+        </div>)
 }
 
 export default Main;

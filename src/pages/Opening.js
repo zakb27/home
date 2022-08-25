@@ -6,19 +6,6 @@ import {TransitionGroup,CSSTransition} from "react-transition-group";
 const Opening = () =>{
     return(<div className={'opening'}>
         <TypedJSHook />
-
-        {/*<TransitionGroup>*/}
-        {/*    /!**/}
-        {/*    This is no different than other usage of*/}
-        {/*    <CSSTransition>, just make sure to pass*/}
-        {/*    `location` to `Switch` so it can match*/}
-        {/*    the old location as it animates out.*/}
-        {/*  *!/*/}
-        {/*    <CSSTransition*/}
-        {/*        key={'t'}*/}
-        {/*        classNames="fade"*/}
-        {/*        timeout={300}*/}
-        {/*    >*/}
             <Link
                 as={NavLink}
                 to={'/main'}
