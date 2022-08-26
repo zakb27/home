@@ -9,16 +9,15 @@ const TypedJSHook = () => {
     React.useEffect(() => {
         const options = {
             strings: [
-                'Hi I\'m a software developer,',
-                'Hi I\'m a web developer,',
-                'Hi I\'m an F1 Fan,',
-                'Hi I\'m an F1 Fan,',
-                'Hi I\'m a Student,',
-                'Hi I\'m Zak',
+                'a software developer,',
+                'a web developer,',
+                'an F1 Fan,',
+                'a Student,',
+                'Zak',
 
             ],
             typeSpeed: 75,
-            backSpeed: 25,
+            backSpeed: 50,
         };
 
         typed.current = new Typed(el.current, options);

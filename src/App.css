@@ -26,19 +26,34 @@ a{
 .opening{
   width:100vw;
   height:100vh;
-
   color:var(--third-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
-h1{
-  font-size: 4rem;
+.typed{
+  font-size:3rem;
+  color:var(--third-color);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.part1{
+  color:var(--secondary-color);
+}
+.wrap{
   padding-bottom: 50px;
 }
-
+.type-wrap{
+  max-width: 100%;
+}
 
 
 
@@ -108,5 +123,26 @@ h1{
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 var(--third-color);
+  }
+}
+
+
+@media (max-width: 950px){
+  .typed{
+    font-size:2.5rem;
+  }
+  .btn-77{
+    padding:1.5rem 3rem;
+    font-size:1.5rem;
+  }
+}
+
+@media (max-width: 600px){
+  .typed{
+    font-size:1.2rem;
+  }
+  .btn-77{
+    padding:1rem 2.5rem;
+    font-size:0.75rem;
   }
 }

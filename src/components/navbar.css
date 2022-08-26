@@ -26,20 +26,17 @@ nav{
 }
 
 .navbar li a{
-    color: var(--secondary-color) ;
+    color:var(--third-color);
     padding-bottom:5px;
     font-weight: 600;
 }
 
 .navbar li:hover a{
-    border-bottom:2px solid var(--secondary-color);
+    border-bottom:2px solid var(--third-color);
 
 }
 
-.uil{
-    font-size:2rem;
-    cursor: pointer;
-}
+
 .menu-btn{
 
     position: relative;
@@ -56,7 +53,7 @@ nav{
     z-index:1000;
     width: 30px;
     height: 4px;
-    background:var(--secondary-color);
+    background:var(--third-color);
     border-radius: 5px;
     transition: all .5s ease-in-out;
 }
@@ -67,7 +64,7 @@ nav{
     position: absolute;
     width: 30px;
     height: 4px;
-    background: var(--secondary-color);
+    background: var(--third-color);
     border-radius: 5px;
     transition: all .5s ease-in-out;
     margin: 0 -15px;
@@ -108,7 +105,7 @@ nav{
 
 }
 a{
-    color:var(--secondary-color);
+    color:var(--third-color);
 }
 .none{
     list-style: none;
@@ -130,7 +127,7 @@ a{
 .slide_container li a,.none li a{
     font-weight: 600;
     padding-bottom: 5px;
-    border-bottom: 4px solid var(--secondary-color);
+    border-bottom: 4px solid var(--third-color);
 }
 
 @media (max-width: 700px){

@@ -1,11 +1,13 @@
 import React,{useState} from "react";
 import TypedJSHook from "../hooks/TypedJSHook";
 import {NavLink,Link} from "react-router-dom";
-import {TransitionGroup,CSSTransition} from "react-transition-group";
 
 const Opening = () =>{
     return(<div className={'opening'}>
-        <TypedJSHook />
+        <div className="typed">
+            <h1 className={'part1'}>&nbsp; Hi I'm &nbsp;</h1>
+            <TypedJSHook />
+        </div>
             <Link
                 as={NavLink}
                 to={'/main'}
