@@ -12,18 +12,19 @@ const Main = () =>{
             <header>
                 <Nav />
             </header>
-        <main>
-            <section id={'about'}>
-                <About />
-            </section>
-            <section id={'projects'}>
-                <Project />
-            </section>
-            <section id={'contact'}>
-                <Contact />
-            </section>
+            <main>
+                <section id={'about'}>
+                    <About />
 
-        </main>
+                </section>
+                <section id={'projects'}>
+                    <Project />
+                </section>
+                <section id={'contact'}>
+                    <Contact />
+                </section>
+
+            </main>
         </div>)
 }
 
