@@ -7,22 +7,23 @@ nav{
 .navbar{
     display: flex;
     position: fixed;
+    width:100%;
     top:0;
     right:0;
     list-style: none;
     flex-direction: row;
     justify-content:  end;
-    width:100%;
-    max-width: 100%;
     background-color: var(--main-color);
     opacity:1;
     z-index: 5;
+
 }
 
 .navbar li{
     cursor: pointer;
     padding:20px;
     margin:0 7px;
+    font-size:1.2rem;
 }
 
 .navbar li a{
@@ -92,7 +93,8 @@ nav{
 
 
 .slide_container {
-    z-index: 1000;
+    z-index: 10;
+    margin-top:-30px;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -104,12 +106,12 @@ nav{
     transition: 0.3s;
     right:0;
     list-style: none;
-
 }
 a{
     color:var(--third-color);
 }
 .none{
+
     list-style: none;
     position: fixed;
     display: flex;
@@ -131,6 +133,31 @@ a{
     font-weight: 600;
     padding-bottom: 5px;
     border-bottom: 4px solid var(--third-color);
+}
+
+
+.running-left{
+    z-index:1000;
+    width:100%;
+}
+.running-left img{
+    height:50px;
+    position:absolute;
+    top:5px;
+    right:20px;
+    animation: linear infinite;
+    animation-name: run-left;
+    animation-duration: 6s;
+}
+
+@keyframes run-left {
+    0% {
+        right: -10%;
+    }
+    100% {
+        right: 110%;
+    }
+
 }
 
 @media (max-width: 700px){

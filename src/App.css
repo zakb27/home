@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 
 }
 body{
@@ -34,7 +35,27 @@ a{
   overflow: hidden;
   word-wrap: break-word;
 }
+.running{
+  width:100%;
+}
+.running img{
+  height:50px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 6s;
+}
+@keyframes run {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
 
+}
 .typed{
   font-size:3rem;
   color:var(--third-color);
