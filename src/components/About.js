@@ -1,7 +1,19 @@
 import React from 'react';
 import image from '../images/prof.jpeg'
 import './about.css'
-// import {ReactComponent as YourSvg} from "../images/css.svg";
+import {ReactComponent as Css_logo} from "../images/css-logo.svg";
+import {ReactComponent as Express_logo} from "../images/express.svg";
+import {ReactComponent as Firebase_logo} from "../images/firebase.svg";
+import {ReactComponent as Git_logo} from "../images/git.svg";
+import {ReactComponent as Html_logo} from "../images/html.svg";
+import {ReactComponent as Jest_logo} from "../images/jest.svg";
+import {ReactComponent as Js_logo} from "../images/js.svg";
+import {ReactComponent as Node_logo} from "../images/node.svg";
+import {ReactComponent as React_logo} from "../images/react.svg";
+import {ReactComponent as Java_logo} from "../images/java.svg";
+import {ReactComponent as Python_logo} from "../images/python_logo.svg";
+
+
 
 const About = () =>{
 
@@ -47,12 +59,64 @@ const About = () =>{
                        target="_blank"
                        className="home__social-icon">
                         <i className="uil uil-headphones-alt"></i>
-                    </a></div>
+                    </a>
+                </div>
+                <div className={'icons'}>
+                    <a href="https://www.linkedin.com/in/zak-brook-15bbb8248/"
+                       target="_blank"
+                       className="home__social-icon">
+                        <i className="uil uil-linkedin"></i>
+                    </a>
+                </div>
             </div>
 
         </div>
         <div className="experience">
-            {/*<YourSvg />*/}
+            <div>
+                <Css_logo />
+                <p>CSS</p>
+            </div>
+            <div>
+                <Express_logo />
+                <p>Express</p>
+            </div>
+            <div>
+                <Firebase_logo />
+                <p>Firebase</p>
+            </div>
+            <div>
+                <Git_logo />
+                <p>Git</p>
+            </div>
+            <div>
+                <Html_logo />
+                <p>HTML</p>
+            </div>
+            <div>
+                <Java_logo />
+                <p>Java</p>
+            </div>
+            <div>
+                <Jest_logo />
+                <p>Jest</p>
+            </div>
+            <div>
+                <Js_logo />
+                <p>JS</p>
+            </div>
+            <div>
+                <Node_logo />
+                <p>Node</p>
+            </div>
+            <div>
+                <React_logo />
+                <p>React</p>
+            </div>
+            <div>
+                <Python_logo />
+                <p>Python</p>
+            </div>
+
         </div>
     </div>)
 }
