@@ -20,7 +20,7 @@ nav{
 }
 
 .navbar li{
-    cursor: pointer;
+
     padding:20px;
     margin:0 7px;
     font-size:1.2rem;
@@ -30,9 +30,10 @@ nav{
     color:var(--third-color);
     padding-bottom:5px;
     font-weight: 600;
+    cursor: pointer;
 }
 
-.navbar li:hover a{
+.navbar li a:hover{
     border-bottom:2px solid var(--third-color);
 
 }

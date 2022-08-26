@@ -36,26 +36,33 @@ a{
   word-wrap: break-word;
 }
 .running{
-  width:100%;
-}
-.running img{
-  height:50px;
   position:absolute;
   bottom:0;
-  left:0;
+  height:50px;
+  width:100%;
+  cursor:url('./images/pokeball.png')25 25,auto;
+
+}
+.running p{
+  position:absolute;
+  bottom:5px;
+  right:5px;
+  font-size:0.5rem;
+}
+
+.running .pikachu{
+  height:50px;
+  position:absolute;
   animation: linear infinite;
   animation-name: run;
   animation-duration: 6s;
 }
-@keyframes run {
-  0% {
-    left: -10%;
-  }
-  100% {
-    left: 110%;
-  }
-
+.running .smoke{
+  height:50px;
+  position: absolute;
 }
+
+
 .typed{
   font-size:3rem;
   color:var(--third-color);
@@ -176,4 +183,14 @@ a{
     padding:1rem 2.5rem;
     font-size:0.75rem;
   }
+}
+
+@keyframes run {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+
 }

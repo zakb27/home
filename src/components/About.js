@@ -1,6 +1,8 @@
 import React from 'react';
 import image from '../images/prof.jpeg'
 import './about.css'
+// import {ReactComponent as YourSvg} from "../images/css.svg";
+
 const About = () =>{
 
     return(<div className={'about_container'}>
@@ -50,7 +52,7 @@ const About = () =>{
 
         </div>
         <div className="experience">
-            {/*<img src={image2} alt=""/>*/}
+            {/*<YourSvg />*/}
         </div>
     </div>)
 }
