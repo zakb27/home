@@ -139,7 +139,17 @@ a{
 
 @media (max-width: 600px){
   .typed{
-    font-size:1.2rem;
+    font-size:1.5rem;
+  }
+  .btn-77{
+    padding:1rem 2.5rem;
+    font-size:0.75rem;
+  }
+}
+
+@media (max-width: 400px){
+  .typed{
+    font-size:1.3rem;
   }
   .btn-77{
     padding:1rem 2.5rem;
