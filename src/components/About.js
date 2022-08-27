@@ -12,14 +12,64 @@ import {ReactComponent as Node_logo} from "../images/node.svg";
 import {ReactComponent as React_logo} from "../images/react.svg";
 import {ReactComponent as Java_logo} from "../images/java.svg";
 import {ReactComponent as Python_logo} from "../images/python_logo.svg";
+import {ReactComponent as Web_logo} from "../images/webpack.svg";
+
 
 
 
 const About = () =>{
 
     return(<div className={'about_container'}>
+
+        <div className="home__social">
+            <div className="icons">
+                <a href="https://discord.com/users/Turbo#5735" target="_blank" className="home__social-icon">
+                    <i className="uil uil-discord"></i>
+                </a>
+            </div>
+            <div className={'icons'}>
+                <a href="https://paypal.me/zakb25?country.x=GB&locale.x=en_GB" target="_blank"
+                   className="home__social-icon">
+                    <i className="uil uil-paypal"></i>
+                </a></div>
+            <div className={'icons'}>
+                <a href="https://github.com/zakb27" target="_blank" className="home__social-icon">
+                    <i className="uil uil-github"></i>
+                </a></div>
+            <div className={'icons'}>
+                <a href="https://instagram.com/zakb27" target="_blank" className="home__social-icon">
+                    <i className="uil uil-instagram"></i>
+                </a></div>
+            <div className={'icons'}>
+                <a href="https://www.amazon.co.uk/hz/wishlist/ls/3GXWJX888OOB0?ref_=wl_share" target="_blank"
+                   className="home__social-icon">
+                    <i className="uil uil-amazon"></i>
+                </a></div>
+            <div className={'icons'}>
+                <a href="https://open.spotify.com/user/3okuksz475xnozor7ri3vu5x3?si=b1f4d8c626e94e83"
+                   target="_blank"
+                   className="home__social-icon">
+                    <i className="uil uil-headphones-alt"></i>
+                </a>
+            </div>
+            <div className={'icons'}>
+                <a href="https://www.linkedin.com/in/zak-brook-15bbb8248/"
+                   target="_blank"
+                   className="home__social-icon">
+                    <i className="uil uil-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+
         <div className="intro">
+            <div className={'image_container'}>
             <img src={image} alt="Image of myself"/>
+
+            </div>
+
+
+
             <div className="intro_text">
                 <h2>About me</h2>
                 <p>Hi, I'm a 20 year old Computer Science Student currently in his third year
@@ -30,45 +80,7 @@ const About = () =>{
                     boosted by the curriculum that I study. In my spare time when I'm not coding
                     I like to watch Formula 1 and Star Wars. </p>
             </div>
-            <div className="home__social">
-                <div className="icons">
-                    <a href="https://discord.com/users/Turbo#5735" target="_blank" className="home__social-icon">
-                        <i className="uil uil-discord"></i>
-                    </a>
-                </div>
-                <div className={'icons'}>
-                    <a href="https://paypal.me/zakb25?country.x=GB&locale.x=en_GB" target="_blank"
-                       className="home__social-icon">
-                        <i className="uil uil-paypal"></i>
-                    </a></div>
-                <div className={'icons'}>
-                    <a href="https://github.com/zakb27" target="_blank" className="home__social-icon">
-                        <i className="uil uil-github"></i>
-                    </a></div>
-                <div className={'icons'}>
-                    <a href="https://instagram.com/zakb27" target="_blank" className="home__social-icon">
-                        <i className="uil uil-instagram"></i>
-                    </a></div>
-                <div className={'icons'}>
-                    <a href="https://www.amazon.co.uk/hz/wishlist/ls/3GXWJX888OOB0?ref_=wl_share" target="_blank"
-                       className="home__social-icon">
-                        <i className="uil uil-amazon"></i>
-                    </a></div>
-                <div className={'icons'}>
-                    <a href="https://open.spotify.com/user/3okuksz475xnozor7ri3vu5x3?si=b1f4d8c626e94e83"
-                       target="_blank"
-                       className="home__social-icon">
-                        <i className="uil uil-headphones-alt"></i>
-                    </a>
-                </div>
-                <div className={'icons'}>
-                    <a href="https://www.linkedin.com/in/zak-brook-15bbb8248/"
-                       target="_blank"
-                       className="home__social-icon">
-                        <i className="uil uil-linkedin"></i>
-                    </a>
-                </div>
-            </div>
+
 
         </div>
         <div className="experience">
@@ -115,6 +127,10 @@ const About = () =>{
             <div>
                 <Python_logo />
                 <p>Python</p>
+            </div>
+            <div>
+                <Web_logo />
+                <p>Webpack</p>
             </div>
 
         </div>
