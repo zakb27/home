@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import About from '../components/About'
 import Project from "../components/Project";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 const Main = () =>{
 
 
@@ -25,6 +26,9 @@ const Main = () =>{
                 </section>
 
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </div>)
 }
 

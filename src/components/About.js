@@ -72,7 +72,7 @@ const About = () =>{
 
             <div className="intro_text">
                 <h2>About me</h2>
-                <p>Hi, I'm a 20 year old Computer Science Student currently in his third year
+                <p>Hi, my name is Zak I'm a 20 year old Computer Science Student currently in his third year
                     at the <a href="https://www.uea.ac.uk/">University of East Anglia. </a>
                     Programming is one of my many hobbies that I enjoy and web development
                     is one of the many skills that I have taught myself as it is a useful and valuable
