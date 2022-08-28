@@ -18,6 +18,7 @@ const Nav = () =>{
 
             <ul className={'navbar'}>
                 <ChangeLight />
+                <h1>Zak Brook</h1>
                 {burgerOpen &&
                 <div className={'running-left'}>
                     <img src={jolteon} alt="Jolteon running" />

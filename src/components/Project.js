@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useRef,useEffect} from 'react';
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import './project.css'
 import image from '../images/wally.png'
 import image2 from '../images/search.png'
@@ -12,10 +13,32 @@ import battleship from '../images/battleship.png'
 
 
 const Project = () =>{
+    gsap.registerPlugin(ScrollTrigger);
+    const ref  = useRef(null)
 
-    return(<div className={'project_container'}>
+    useEffect(()=>{
+        const element  = ref.current;
+
+        gsap.fromTo(
+            element.querySelectorAll('.project'),{
+                opacity:0,
+                x:100
+            },
+            {
+                opacity:1,
+                x:0,
+                scrollTrigger: {
+                    trigger: element.querySelectorAll(".project"),
+                    scrub:true
+                }
+            }
+        );
+    },[]);
+
+
+    return(<div className={'project_container'} ref={ref}>
         <h1>Projects</h1>
-        <div className="all_projects">
+        <div className="all_projects" >
             <div className={'project'}>
                 <div className="project_text">
                     <h3>Where's Wally</h3>

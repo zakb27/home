@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../images/prof.jpeg'
+import image from '../images/prof.png'
 import './about.css'
 import {ReactComponent as Css_logo} from "../images/css-logo.svg";
 import {ReactComponent as Express_logo} from "../images/express.svg";
@@ -67,13 +67,9 @@ const About = () =>{
         <div className="intro">
             <div className={'image_container'}>
             <img src={image} alt="Image of myself"/>
-
             </div>
 
-
-
             <div className="intro_text">
-                <h2>About me</h2>
                 <p>Hi, my name is Zak I'm a 20 year old Computer Science Student currently in his third year
                     at the <a href="https://www.uea.ac.uk/">University of East Anglia. </a>
                     Programming is one of my many hobbies that I enjoy and web development
@@ -85,6 +81,8 @@ const About = () =>{
 
 
         </div>
+        <div className="experience_container">
+            <h1>Experience: </h1>
         <div className="experience">
             <div>
                 <Css_logo />
@@ -143,6 +141,7 @@ const About = () =>{
                 <p>PostgreSQL</p>
             </div>
 
+        </div>
         </div>
     </div>)
 }

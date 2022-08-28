@@ -21,7 +21,11 @@ nav{
     z-index: 5;
     border-bottom: 2px solid var(--third-color);
 }
-
+.navbar h1{
+    font-size: 3rem;
+    align-self: center;
+    margin:0 auto;
+}
 .navbar li{
 
     padding:20px;
@@ -29,12 +33,17 @@ nav{
     font-size:1.2rem;
 }
 .change_light_container{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     cursor: pointer;
     color: var(--third-color);
     font-size: 2rem;
+    position: absolute;
+    left:19px;
+    top:15px;
 
 }
 .uil{
@@ -118,7 +127,7 @@ nav{
     z-index: 10;
     margin-top:-30px;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: var(--main-color);
     display: flex;
@@ -128,7 +137,12 @@ nav{
     transition: 0.3s;
     right:0;
     list-style: none;
+
 }
+.slide_container li a{
+    font-size: 4rem;
+}
+
 a{
     color:var(--third-color);
 }
@@ -186,8 +200,21 @@ a{
     .menu-btn{
         display: flex;
     }
-
+    .change_light_container .uil{
+        font-size:3.5rem;
+    }
     .navbar li{
         display: none;
+    }
+    .uil{
+        font-size:2.5rem;
+    }
+}
+@media (max-width: 500px){
+    .change_light_container .uil{
+        font-size:3.5rem;
+    }
+    .uil{
+        font-size:3rem;
     }
 }

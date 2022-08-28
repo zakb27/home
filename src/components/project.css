@@ -6,7 +6,7 @@
 .project_container h1{
     font-size: 4rem;
 
-    margin:100px;
+
 
 }
 
@@ -20,9 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
-    height:400px;
-
+    max-height:400px;
+    max-width: 80%;
 }
 
 
