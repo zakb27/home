@@ -16,7 +16,6 @@ const Main = () =>{
             <main>
                 <section id={'about'}>
                     <About />
-
                 </section>
                 <section id={'projects'}>
                     <Project />

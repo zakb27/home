@@ -13,6 +13,8 @@ import {ReactComponent as React_logo} from "../images/react.svg";
 import {ReactComponent as Java_logo} from "../images/java.svg";
 import {ReactComponent as Python_logo} from "../images/python_logo.svg";
 import {ReactComponent as Web_logo} from "../images/webpack.svg";
+import {ReactComponent as Postgres_logo} from "../images/Postgresql.svg";
+import {ReactComponent as SQL_logo} from "../images/sql.svg";
 
 
 
@@ -131,6 +133,14 @@ const About = () =>{
             <div>
                 <Web_logo />
                 <p>Webpack</p>
+            </div>
+            <div>
+                <SQL_logo />
+                <p>SQL</p>
+            </div>
+            <div>
+                <Postgres_logo />
+                <p>PostgreSQL</p>
             </div>
 
         </div>

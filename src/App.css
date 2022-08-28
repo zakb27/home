@@ -1,7 +1,15 @@
 :root{
-  --main-color:#151b25;
-  --secondary-color:#0096c7;
-  --third-color:#48cae4;
+  /*--main-color:#151b25;*/
+  /*--secondary-color:#0096c7;*/
+  /*--third-color:#48cae4;*/
+  --main-color:#344e41;
+  --secondary-color:#a3b18a;
+  --third-color:#dad7cd;
+
+  /*background-color: #E5E5E5;*/
+  /*--main-color:#e9f5db;*/
+  /*--secondary-color:#414833;*/
+  /*--third-color:#414833;*/
 }
 *{
   margin: 0;
@@ -10,6 +18,8 @@
   scroll-behavior: smooth;
 
 }
+
+
 body{
   background-color: var(--main-color);
   color: var(--secondary-color);
@@ -65,7 +75,7 @@ a{
 
 .typed{
   font-size:3rem;
-  color:var(--third-color);
+  color:var(--secondary-color);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -74,7 +84,7 @@ a{
   transition: 0.3s;
 }
 .part1{
-  color:var(--secondary-color);
+  color:var(--third-color);
 }
 .wrap{
   padding-bottom: 50px;
@@ -173,6 +183,10 @@ a{
     padding:1rem 2.5rem;
     font-size:0.75rem;
   }
+
+  body{
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 400px){
@@ -183,6 +197,8 @@ a{
     padding:1rem 2.5rem;
     font-size:0.75rem;
   }
+
+
 }
 
 @keyframes run {

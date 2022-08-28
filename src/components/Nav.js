@@ -2,19 +2,22 @@ import React, {useRef, useState} from "react";
 import './navbar.css'
 import {Link, NavLink} from "react-router-dom";
 import jolteon from "../images/jolteon.gif";
+import ChangeLight from "../utils/ChangeLight";
 const Nav = () =>{
 
-        const [burgerOpen,changeBurger] = useState(false);
-        const burgerRef = useRef(null);
-        const onBurgerClick = () =>{
-            changeBurger(!burgerOpen);
-        }
+    const [light,changeLight] = useState(false);
+    const [burgerOpen,changeBurger] = useState(false);
+    const burgerRef = useRef(null);
+    const onBurgerClick = () =>{
+        changeBurger(!burgerOpen);
+    }
 
 
     return(
         <nav>
 
             <ul className={'navbar'}>
+                <ChangeLight />
                 {burgerOpen &&
                 <div className={'running-left'}>
                     <img src={jolteon} alt="Jolteon running" />
@@ -40,7 +43,7 @@ const Nav = () =>{
 
             </ul>
 
-            <ul className={`${burgerOpen ? 'slide_container' :'none'}`}>
+            <ul className={`${burgerOpen ? 'slide_container' :'none'}`} onClick={onBurgerClick}>
                 <li> <Link
                     as={NavLink}
                     to={'/'}
