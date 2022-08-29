@@ -13,7 +13,7 @@ const Opening = () =>{
         soundRef.current.play();
     }
 
-    return(<div>
+    return(
             <div className={'opening'}>
                 <div className="typed">
                     <h1 className={'part1'}>&nbsp; Hi I'm&nbsp;</h1>
@@ -28,16 +28,12 @@ const Opening = () =>{
                         Who am I? → </button></Link>
 
 
-
-            </div>
-            <div className={"running"}  >
-                <img src={pikachu} alt="Pikachu running"onClick={handlePokemonClick} ref={pokemonRef} className={'pikachu'}/>
-                <audio src={pokemon_caught} ref={soundRef}></audio>
-                <p>Catch him</p>
-
+                <div className={"running"}  >
+                    <img src={pikachu} alt="Pikachu running"onClick={handlePokemonClick} ref={pokemonRef} className={'pikachu'}/>
+                    <audio src={pokemon_caught} ref={soundRef}></audio>
+                </div>
             </div>
 
-        </div>
     )
 }
 

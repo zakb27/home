@@ -69,28 +69,28 @@ const Project = () =>{
             <div className={'project anim_left'}>
                 <div className="project_text">
                     <h3>Where's Wally</h3>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/wheres-wally">Repository</a></span></button>
                 </div>
                 <img src={image} alt="Where's wally"/>
             </div>
             <div className="project anim_right">
                 <div className="project_text">
                     <h3>Local Search Engine</h3>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/Local-Search-Engine">Repository</a></span></button>
                 </div>
                 <img src={image2} alt=""/>
             </div>
             <div className="project anim_left">
                 <div className="project_text">
                     <h3>Weather app</h3>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/weather-app">Repository</a></span></button>
                 </div>
                 <img src={image3} alt=""/>
             </div>
             <div className="project anim_right">
                 <div className="project_text">
                     <h3>Parking management app</h3>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/Parkarino">Repository</a></span></button>
                 </div>
                 <img src={image4} alt=""/>
             </div>
@@ -102,21 +102,21 @@ const Project = () =>{
             <div className="sub_project">
                 <div className="sub_project_text">
                     <h5>Book shop</h5>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/bookerino">Repository</a></span></button>
                 </div>
                 <img src={bookerino} alt=""/>
             </div>
             <div className="sub_project">
                 <div className="sub_project_text">
                     <h5>Battleship</h5>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/battleship">Repository</a></span></button>
                 </div>
                 <img src={battleship} alt=""/>
             </div>
             <div className="sub_project">
                 <div className="sub_project_text">
                     <h5>Etch-a-Sketch!</h5>
-                    <button className={'btn-96'}><span><a href="">Repository</a></span></button>
+                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/etch-a-sketch">Repository</a></span></button>
                 </div>
                 <img src={etch} alt=""/>
             </div>

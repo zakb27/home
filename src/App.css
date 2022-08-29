@@ -36,6 +36,7 @@ main{
 a{
   text-decoration: none;
 }
+
 .opening{
   width:100vw;
   height:100vh;
@@ -49,29 +50,21 @@ a{
 }
 .running{
   position:absolute;
-  bottom:0;
-  height:50px;
+  bottom:40px;
   width:100%;
   cursor:url('./images/pokeball.png')25 25,auto;
+  box-sizing:border-box;
+  padding:0;
+}
 
-}
-.running p{
-  position:absolute;
-  bottom:5px;
-  right:5px;
-  font-size:0.5rem;
-}
 
 .running .pikachu{
-  height:50px;
-  position:absolute;
+  position: absolute;
+  width:50px;
   animation: linear infinite;
   animation-name: run;
   animation-duration: 6s;
-}
-.running .smoke{
-  height:50px;
-  position: absolute;
+
 }
 
 
