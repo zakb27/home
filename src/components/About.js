@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react';
-import image from '../images/prof.png'
+import image from '../images/prof.jpeg'
 import './about.css'
 import {ReactComponent as Css_logo} from "../images/css-logo.svg";
 import {ReactComponent as Express_logo} from "../images/express.svg";

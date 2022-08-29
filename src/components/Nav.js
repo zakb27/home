@@ -4,8 +4,10 @@ import {Link, NavLink} from "react-router-dom";
 import {HashLink} from 'react-router-hash-link';
 import jolteon from "../images/jolteon.gif";
 import ChangeLight from "../utils/ChangeLight";
+import pokemon_caught from "../images/sound.mp3";
 const Nav = () =>{
-
+    const pokemonRef = useRef(null)
+    const soundRef = useRef(null)
     const [light,changeLight] = useState(false);
     const [burgerOpen,changeBurger] = useState(false);
     const burgerRef = useRef(null);
@@ -13,6 +15,10 @@ const Nav = () =>{
         changeBurger(!burgerOpen);
     }
 
+    const handlePokemonClick = () =>{
+        pokemonRef.current.style='display:none';
+        soundRef.current.play();
+    }
 
     return(
         <nav>
@@ -22,7 +28,8 @@ const Nav = () =>{
                 <h1>Zak Brook</h1>
                 {burgerOpen &&
                 <div className={'running-left'}>
-                    <img src={jolteon} alt="Jolteon running" />
+                    <img src={jolteon} alt="Jolteon running" onClick={handlePokemonClick} ref={pokemonRef}/>
+                    <audio src={pokemon_caught} ref={soundRef}></audio>
                 </div>
                 }
 

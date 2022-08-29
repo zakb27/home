@@ -203,13 +203,13 @@ a{
         display: flex;
     }
     .change_light_container .uil{
-        font-size:3.5rem;
+        font-size:2.5rem;
     }
     .navbar li{
         display: none;
     }
     .uil{
-        font-size:2.5rem;
+        font-size:3rem;
     }
 }
 @media (max-width: 500px){
@@ -217,7 +217,7 @@ a{
         font-size:3.5rem;
     }
     .uil{
-        font-size:3rem;
+        font-size:3.5rem;
     }
     .navbar h1{
     right:45%;
