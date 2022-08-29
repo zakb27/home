@@ -1,5 +1,4 @@
 import React,{useState} from "react";
-import {NavLink,Link} from "react-router-dom";
 import Nav from '../components/Nav'
 import About from '../components/About'
 import Project from "../components/Project";

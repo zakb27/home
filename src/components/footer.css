@@ -8,4 +8,9 @@
 
 .footer_container .icons{
     font-size:1.5rem;
+
+}
+
+.footer_container .icons a .uil{
+    color: var(--secondary-color);
 }

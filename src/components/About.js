@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import image from '../images/prof.png'
 import './about.css'
 import {ReactComponent as Css_logo} from "../images/css-logo.svg";
@@ -15,13 +15,71 @@ import {ReactComponent as Python_logo} from "../images/python_logo.svg";
 import {ReactComponent as Web_logo} from "../images/webpack.svg";
 import {ReactComponent as Postgres_logo} from "../images/Postgresql.svg";
 import {ReactComponent as SQL_logo} from "../images/sql.svg";
-
-
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 const About = () =>{
+    gsap.registerPlugin(ScrollTrigger);
+    const ref  = useRef(null)
 
-    return(<div className={'about_container'}>
+    useEffect(() =>{
+        const element  = ref.current;
+
+        gsap.fromTo(
+            element.querySelector('.intro_body'),{
+                y:100,
+                opacity:0
+            },
+            {
+                opacity:1,
+                y:0,
+                duration: 3
+            }
+        );
+        gsap.fromTo(
+            element.querySelector('.experience_container'),{
+                x:100,
+                opacity:0
+
+            },
+            {
+                opacity:1,
+                x:0,
+                duration: 3
+
+            }
+        );
+        gsap.fromTo(
+            element.querySelector('.image_container'),{
+                y:-100,
+                opacity:0
+
+            },
+            {
+                opacity:1,
+                y:0,
+                duration: 3
+
+            }
+        );
+        gsap.fromTo(
+            element.querySelector('.intro_title'),{
+                x:-100,
+                opacity:0
+
+            },
+            {
+                opacity:1,
+                x:0,
+                duration: 3
+
+            }
+        );
+
+    },[]);
+
+    return(<div className={'about_container'} ref={ref}>
 
         <div className="home__social">
             <div className="icons">
@@ -66,11 +124,12 @@ const About = () =>{
 
         <div className="intro">
             <div className={'image_container'}>
-            <img src={image} alt="Image of myself"/>
+                <img src={image} alt="Image of myself"/>
             </div>
 
             <div className="intro_text">
-                <p>Hi, my name is Zak I'm a 20 year old Computer Science Student currently in his third year
+                <h1 className={'intro_title'}>Me</h1>
+                <p className={'intro_body'}>Hi, my name is Zak I'm a 20 year old Computer Science Student currently in his third year
                     at the <a href="https://www.uea.ac.uk/">University of East Anglia. </a>
                     Programming is one of my many hobbies that I enjoy and web development
                     is one of the many skills that I have taught myself as it is a useful and valuable

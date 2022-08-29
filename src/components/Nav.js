@@ -1,6 +1,7 @@
 import React, {useRef, useState} from "react";
 import './navbar.css'
 import {Link, NavLink} from "react-router-dom";
+import {HashLink} from 'react-router-hash-link';
 import jolteon from "../images/jolteon.gif";
 import ChangeLight from "../utils/ChangeLight";
 const Nav = () =>{
@@ -32,9 +33,9 @@ const Nav = () =>{
                 >
                     Home
                 </Link><div className="underline"></div></li>
-                <li><a href="#about">About</a><div className="underline"></div></li>
-                <li><a href="#projects">Projects</a><div className="underline"></div></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><HashLink to="#about">About</HashLink><div className="underline"></div></li>
+                <li><HashLink to="#projects">Projects</HashLink><div className="underline"></div></li>
+                <li><HashLink to="#contact">Contact</HashLink></li>
 
 
                 <div className={`menu-btn ${burgerOpen ? 'open' :''}`} ref={burgerRef} onClick={onBurgerClick}>
@@ -52,11 +53,10 @@ const Nav = () =>{
                 >
                     Home
                 </Link><div className="underline"></div></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-
-
+                <li><HashLink to="#about">About</HashLink></li>
+                <li><HashLink to="#projects">Projects</HashLink></li>
+                <li><HashLink to="#contact">Contact</HashLink></li>
+                
             </ul>
 
 
