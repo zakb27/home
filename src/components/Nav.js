@@ -56,7 +56,7 @@ const Nav = () =>{
                 <li><HashLink to="#about">About</HashLink></li>
                 <li><HashLink to="#projects">Projects</HashLink></li>
                 <li><HashLink to="#contact">Contact</HashLink></li>
-                
+
             </ul>
 
 
