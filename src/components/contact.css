@@ -18,13 +18,17 @@
 
 }
 
-.contact_container a:hover{
 
-    border-bottom: 3px solid var(--secondary-color);
-}
 
 @media (max-width: 700px){
     .contact_container a{
         font-size: 2rem;
+    }
+}
+@media (hover: hover) {
+
+    .contact_container a:hover{
+
+        border-bottom: 3px solid var(--secondary-color);
     }
 }

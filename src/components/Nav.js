@@ -25,7 +25,13 @@ const Nav = () =>{
 
             <ul className={'navbar'}>
                 <ChangeLight />
-                <h1>Zak Brook</h1>
+                <Link
+                    as={NavLink}
+                    to={'/'}
+                    className={'go_back'}
+                >
+                    <h1>Zak Brook</h1>
+                </Link>
                 {burgerOpen &&
                 <div className={'running-left'}>
                     <img src={jolteon} alt="Jolteon running" onClick={handlePokemonClick} ref={pokemonRef}/>
@@ -33,15 +39,9 @@ const Nav = () =>{
                 </div>
                 }
 
-                <li><Link
-                    as={NavLink}
-                    to={'/'}
-                    className={'go_back'}
-                >
-                    Home
-                </Link><div className="underline"></div></li>
-                <li><HashLink to="#about">About</HashLink><div className="underline"></div></li>
+                <li><HashLink to="#home">Home</HashLink><div className="underline"></div></li>
                 <li><HashLink to="#projects">Projects</HashLink><div className="underline"></div></li>
+                <li><HashLink to="#about">About</HashLink><div className="underline"></div></li>
                 <li><HashLink to="#contact">Contact</HashLink></li>
 
 
@@ -53,15 +53,10 @@ const Nav = () =>{
             </ul>
 
             <ul className={`${burgerOpen ? 'slide_container' :'none'}`} onClick={onBurgerClick}>
-                <li> <Link
-                    as={NavLink}
-                    to={'/'}
-                    className={'go_back'}
-                >
-                    Home
-                </Link><div className="underline"></div></li>
-                <li><HashLink to="#about">About</HashLink></li>
+
+                <li><HashLink to="#home">Home</HashLink></li>
                 <li><HashLink to="#projects">Projects</HashLink></li>
+                <li><HashLink to="#about">About</HashLink></li>
                 <li><HashLink to="#contact">Contact</HashLink></li>
 
             </ul>

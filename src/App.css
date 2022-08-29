@@ -49,18 +49,21 @@ a{
   word-wrap: break-word;
 }
 .running{
-  position:absolute;
-  bottom:40px;
+
+  height:50px;
   width:100%;
   cursor:url('./images/pokeball.png')25 25,auto;
-  box-sizing:border-box;
   padding:0;
+  position: absolute;
+  bottom:0;
+
 }
 
 
 .running .pikachu{
   position: absolute;
-  width:50px;
+  bottom:0px;
+  height:50px;
   animation: linear infinite;
   animation-name: run;
   animation-duration: 6s;
@@ -211,3 +214,4 @@ a{
   }
 
 }
+

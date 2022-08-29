@@ -11,7 +11,6 @@ nav{
     top:0;
     right:0;
     width:100%;
-
     list-style: none;
     flex-direction: row;
     justify-content:  end;
@@ -20,13 +19,21 @@ nav{
     z-index: 5;
     border-bottom: 2px solid var(--third-color);
 }
-.navbar h1{
+
+.navbar a h1{
     font-size: 3rem;
     align-self: center;
-
     position: absolute;
-    right:50%;
+
+    right:65%;
+
     text-align: center;
+    border-bottom: 3px solid var(--main-color);
+    transition: 0.3s;
+}
+
+.navbar a h1:hover{
+    border-bottom: 3px solid var(--secondary-color);
 }
 .navbar li{
 
@@ -52,9 +59,7 @@ nav{
     transition:0.3s ease-in-out;
 }
 
-.change_light_container .uil:hover{
-    transform: rotate(270deg);
-}
+
 
 .navbar li a{
     color:var(--third-color);
@@ -65,10 +70,6 @@ nav{
     transition:0.3s ease-in-out;
 }
 
-.navbar li a:hover{
-    border-bottom:2px solid var(--third-color) ;
-
-}
 
 
 .menu-btn{
@@ -219,7 +220,21 @@ a{
     .uil{
         font-size:3.5rem;
     }
-    .navbar h1{
-    right:45%;
+    .navbar a h1{
+        right:30%;
+        font-size:3.5rem;
+        top:13px;
     }
+}
+.change_light_container .uil:hover{
+    transform: rotate(270deg);
+}
+
+@media (hover: hover) {
+
+    .navbar li a:hover{
+        border-bottom:2px solid var(--third-color) ;
+
+    }
+
 }

@@ -27,6 +27,7 @@ const Project = () =>{
             {
                 x:0,
                 scrollTrigger: {
+
                     trigger: q(".anim_right"),
                     scrub:true
                 }
@@ -38,8 +39,9 @@ const Project = () =>{
                 x:300,
             },
             {
-                x:0,
+                x:-0,
                 scrollTrigger: {
+
                     trigger: q(".anim_left"),
                     scrub:true
                 }
