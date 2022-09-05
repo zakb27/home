@@ -2,14 +2,14 @@ import React, {useRef,useEffect} from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import './project.css'
-import image from '../images/wally.png'
-import image2 from '../images/search.png'
-import image3 from '../images/weather.png'
-import image4 from '../images/parkerino.png'
+import image from '../images/projects/wally.png'
+import image2 from '../images/projects/search.png'
+import image3 from '../images/projects/weather.png'
+import image4 from '../images/projects/parkerino.png'
 
-import etch from '../images/etch.png'
-import bookerino from '../images/bookerino.png'
-import battleship from '../images/battleship.png'
+import etch from '../images/projects/etch.png'
+import bookerino from '../images/projects/bookerino.png'
+import battleship from '../images/projects/battleship.png'
 
 
 const Project = () =>{

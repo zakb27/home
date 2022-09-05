@@ -2,9 +2,9 @@ import React, {useRef, useState} from "react";
 import './navbar.css'
 import {Link, NavLink} from "react-router-dom";
 import {HashLink} from 'react-router-hash-link';
-import jolteon from "../images/jolteon.gif";
+import jolteon from "../images/prof/jolteon.gif";
 import ChangeLight from "../utils/ChangeLight";
-import pokemon_caught from "../images/sound.mp3";
+import pokemon_caught from "../images/prof/sound.mp3";
 const Nav = () =>{
     const pokemonRef = useRef(null)
     const soundRef = useRef(null)

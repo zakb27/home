@@ -1,9 +1,8 @@
-import React, {useRef, useState} from "react";
+import React, {useRef} from "react";
 import TypedJSHook from "../hooks/TypedJSHook";
 import {NavLink,Link} from "react-router-dom";
-import pikachu from '../images/pikachu-running.gif'
-import pokemon_caught from '../images/sound.mp3'
-import smoke from '../images/smoke.png'
+import pikachu from '../images/prof/pikachu-running.gif'
+import pokemon_caught from '../images/prof/sound.mp3'
 const Opening = () =>{
     const pokemonRef = useRef(null)
     const soundRef = useRef(null)
