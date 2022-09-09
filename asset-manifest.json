@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.2e91e722.css",
-    "main.js": "/home/static/js/main.d539fd6b.js",
+    "main.css": "/home/static/css/main.4c0f4b21.css",
+    "main.js": "/home/static/js/main.36ec60a6.js",
     "static/media/wally.png": "/home/static/media/wally.ce1fcac87da6e91292f5.png",
     "static/media/bookerino.png": "/home/static/media/bookerino.3fd57221c38383a5c5c2.png",
     "static/media/prof.jpeg": "/home/static/media/prof.245e423ea6f519c68928.jpeg",
@@ -9,7 +9,6 @@
     "static/media/parkerino.png": "/home/static/media/parkerino.784ae4b0dc38589d502b.png",
     "static/media/battleship.png": "/home/static/media/battleship.e5ad27d8d065eae20d3f.png",
     "static/media/weather.png": "/home/static/media/weather.bf586c46e315f65bc4c5.png",
-    "static/media/smoke.png": "/home/static/media/smoke.d8ce773107744ece05f8.png",
     "static/media/etch.png": "/home/static/media/etch.09566aefc49b985fe95e.png",
     "static/media/jolteon.gif": "/home/static/media/jolteon.f4083e4400b134d6f813.gif",
     "static/media/pikachu-running.gif": "/home/static/media/pikachu-running.176efa059e6c05942f55.gif",
@@ -29,11 +28,11 @@
     "index.html": "/home/index.html",
     "static/media/firebase.svg": "/home/static/media/firebase.82a35fc0b90d124a8e7333989f767fd3.svg",
     "static/media/react.svg": "/home/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.2e91e722.css.map": "/home/static/css/main.2e91e722.css.map",
-    "main.d539fd6b.js.map": "/home/static/js/main.d539fd6b.js.map"
+    "main.4c0f4b21.css.map": "/home/static/css/main.4c0f4b21.css.map",
+    "main.36ec60a6.js.map": "/home/static/js/main.36ec60a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e91e722.css",
-    "static/js/main.d539fd6b.js"
+    "static/css/main.4c0f4b21.css",
+    "static/js/main.36ec60a6.js"
   ]
 }
