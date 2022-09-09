@@ -177,7 +177,7 @@
 }
 .btn-96 span {
     background: var(--secondary-color);
-    color: #000;
+    color: var(--main-color);
     display: grid;
     inset: 0;
     place-items: center;

@@ -71,28 +71,28 @@ const Project = () =>{
             <div className={'project anim_left'}>
                 <div className="project_text">
                     <h3>Where's Wally</h3>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/wheres-wally" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/wheres-wally" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={image} alt="Where's wally"/>
             </div>
             <div className="project anim_right">
                 <div className="project_text">
                     <h3>Local Search Engine</h3>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/Local-Search-Engine" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/Local-Search-Engine" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={image2} alt=""/>
             </div>
             <div className="project anim_left">
                 <div className="project_text">
                     <h3>Weather app</h3>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/weather-app" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/weather-app" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={image3} alt=""/>
             </div>
             <div className="project anim_right">
                 <div className="project_text">
                     <h3>Parking management app</h3>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/Parkarino" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/Parkarino" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={image4} alt=""/>
             </div>
@@ -104,21 +104,21 @@ const Project = () =>{
             <div className="sub_project">
                 <div className="sub_project_text">
                     <h5>Book shop</h5>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/bookerino" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/bookerino" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={bookerino} alt=""/>
             </div>
             <div className="sub_project">
                 <div className="sub_project_text">
                     <h5>Battleship</h5>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/battleship" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/battleship" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={battleship} alt=""/>
             </div>
             <div className="sub_project">
                 <div className="sub_project_text">
                     <h5>Etch-a-Sketch!</h5>
-                    <button className={'btn-96'}><span><a href="https://github.com/zakb27/etch-a-sketch" target="_blank">Repository</a></span></button>
+                    <a href="https://github.com/zakb27/etch-a-sketch" target="_blank"><button className={'btn-96'}><span>Repository</span></button></a>
                 </div>
                 <img src={etch} alt=""/>
             </div>
